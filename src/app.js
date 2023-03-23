@@ -1,3 +1,12 @@
+/*
+* File: app.js
+* Author: Szinyei Mikes
+* Copyright: 2023, Szinyei Mikes
+* Group: Szoft I-2 N
+* Date: 2023-03-23
+* Github: https://github.com/MikesSzinyei/
+* Licenc: GNU GPL
+*/
 
 const betetInput = document.querySelector('#betet')
 const kamatInput = document.querySelector('#nevlegesKamat')
