@@ -3,13 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Kamat</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Kamat számítás</h1>
+
+        <div class="mt-3">
+            <label for="betet"
+            class="form-label">Betét</label>
+
+            <input type="text" id="betet"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <label for="nevKamat"
+            class="form-label">Névleges kamat(%)</label>
+
+            <input type="text" id="nevKamat"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <label for="tokesites"
+            class="form-label">Évenkénti tőkésítések száma</label>
+
+            <input type="text" id="tokesites"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <button  id="calcButton"
+            class="btn btn-primary">Számít</button>
+        </div>
+
+        <div class="mt-3 me-3" id="result">
+            <label for="kamat"
+            class="form-label">Tényleges éves kamat</label>
+            
+            <input type="text" id="kamat"
+            class="form-control" readonly>
+        </div>
+
+
+
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>
